@@ -5,6 +5,8 @@ import { useTranslations } from "next-intl";
 
 import { Locale } from "@/i18n/request";
 
+import HeroSection from "./component/Hero";
+
 export default function Home() {
   const t = useTranslations("HomePage");
   const router = useRouter();
@@ -16,6 +18,7 @@ export default function Home() {
 
   return (
     <div>
+      <HeroSection />
       <h1 className="text-red-500 p-10 text-center">{t("title")}</h1>
       <div className="flex flex-col gap-8">
         <button onClick={() => handleLocaleChange("uz")}>ozbekcha</button>

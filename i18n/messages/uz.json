@@ -1,5 +1,10 @@
 {
   "HomePage": {
     "title": "Salom Dunyo!"
-  }
+  },
+  "project": "Loyiha",
+  "aboutUs": "Biz haqimizda",
+  "workingRegime": "Ishlash tartibimiz",
+  "ecoBlog": "Eko-blog",
+  "contact": "Aloqa"
 }
