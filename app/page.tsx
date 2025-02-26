@@ -1,8 +1,9 @@
 "use client";
 
-import { Locale } from "@/i18n/request";
-import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
+
+import { Locale } from "@/i18n/request";
 
 export default function Home() {
   const t = useTranslations("HomePage");

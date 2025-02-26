@@ -1,0 +1,11 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "typescript.preferences.autoImportFileExcludePatterns": ["@radix-ui/*"]
+}
