@@ -43,5 +43,7 @@
   "phone": "Telefon raqami",
   "message": "Xabar",
   "invalidEmail": "Iltimos, to‘g‘ri email kiriting",
-  "required": "Iltimos, ushbu maydonnni to‘ldiring"
+  "required": "Iltimos, ushbu maydonnni to‘ldiring",
+  "chooseUs": "O‘zbekistonning siklik iqtisodiyotini rivojlantirish uchun Wasteless’ni tanlang!",
+  "chooseUsSub": "Bizning asosiy maqsadimiz – qayta ishlanadigan chiqindilarni samarali yig‘ish va utilizatsiya qilish uchun IT-platforma yaratish orqali qayta ishlash ulushini maksimal darajaga yetkazish."
 }

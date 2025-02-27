@@ -3,6 +3,7 @@
 import AboutOurActivities from "./component/AboutOurActivities";
 import AboutUs from "./component/AboutUs";
 import ContactUs from "./component/ContactUs";
+import Download from "./component/Download";
 import Footer from "./component/Footer";
 import FromWasteToNewProducts from "./component/FromWasteToNewProducts";
 import HeroSection from "./component/Hero";
@@ -19,6 +20,7 @@ export default function Home() {
       <FromWasteToNewProducts />
       <YouTubeBlog />
       <ContactUs />
+      <Download />
       <Footer />
     </div>
   );

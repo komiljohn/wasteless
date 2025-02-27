@@ -6,7 +6,7 @@ export default function AboutUs() {
   const t = useTranslations();
 
   return (
-    <div className="container mx-auto px-4 flex justify-between items-center mt-[220px]">
+    <div className="container mx-auto px-4 flex justify-between items-center mt-[220px] pb-[71px]">
       <div className="relative">
         <Image
           width={603}
