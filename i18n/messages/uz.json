@@ -34,5 +34,14 @@
   "product4": "Shovqin izolyatsiya materiallari",
   "product5": "Cho‘tka tuklari",
   "product6": "Issiqlik izolyatsiyasi (sintepon)",
-  "youtubeBlog": "YouTube blogi"
+  "youtubeBlog": "YouTube blogi",
+  "contactWithUs": "Biz bilan bog‘lanish",
+  "contactWithUsSub": "Ariza qoldiring, menejerlarimiz siz bilan bog‘lanadi.",
+  "full_name": "Ism va familiyangiz",
+  "company_name": "Korxonangiz nomi",
+  "email": "Elektron pochta",
+  "phone": "Telefon raqami",
+  "message": "Xabar",
+  "invalidEmail": "Iltimos, to‘g‘ri email kiriting",
+  "required": "Iltimos, ushbu maydonnni to‘ldiring"
 }
