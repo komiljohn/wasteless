@@ -6,6 +6,7 @@ import Footer from "./component/Footer";
 import FromWasteToNewProducts from "./component/FromWasteToNewProducts";
 import HeroSection from "./component/Hero";
 import Banner from "./component/Hero/Banner";
+import YouTubeBlog from "./component/YouTubeBlog";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutUs />
       <AboutOurActivities />
       <FromWasteToNewProducts />
+      <YouTubeBlog />
       <Footer />
     </div>
   );
