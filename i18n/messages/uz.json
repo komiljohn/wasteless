@@ -7,5 +7,16 @@
   "workingRegime": "Ishlash tartibimiz",
   "ecoBlog": "Eko-blog",
   "contact": "Aloqa",
-  "footerText": "Biz biznes va jismoniy shaxslarga chiqindi hajmini kamaytirishda yordam beramiz, qayta ishlanadigan materiallarni yangi resurslarga aylantiramiz."
+  "footerText": "Biz biznes va jismoniy shaxslarga chiqindi hajmini kamaytirishda yordam beramiz, qayta ishlanadigan materiallarni yangi resurslarga aylantiramiz.",
+  "aboutUsText": "bu ekologik loyiha bo‘lib, chiqindilarni yig‘ish, saralash va qayta ishlash bo‘yicha samarali tizim yaratishga qaratilgan. Biz korxonalar va jismoniy shaxslarga chiqindi hajmini kamaytirishga yordam beramiz, qayta ishlanadigan materiallarni yangi resurslarga aylantiramiz.",
+  "whatWeDo": "Biz nima bilan shug‘ullanamiz?",
+  "aboutUs1": "Qayta ishlanadigan chiqindilarni qabul qilish punktlari orqali qulay yig‘ishni tashkil etamiz.",
+  "aboutUs2": "Korxonalar va turar joy majmualari uchun ekologik yechimlarni joriy qilamiz.",
+  "aboutUs3": "Ta’lim dasturlari orqali qayta ishlash bo‘yicha xabardorlikni oshiramiz.",
+  "aboutUs4": "Chiqindilardan samarali foydalanish uchun qayta ishlovchi korxonalar bilan hamkorlik qilamiz.",
+  "ourMission": "Bizning maqsadimiz — ortiqcha chiqindilarsiz dunyo!",
+  "years": "{year} yil",
+  "inRecyclingMarket": "Qayta ishlash bozorida",
+  "tonn": "{amount} t",
+  "recycledPlasticBottles": "plastik butilkalar qayta ishlandi"
 }
