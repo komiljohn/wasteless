@@ -18,5 +18,8 @@
   "years": "{year} yil",
   "inRecyclingMarket": "Qayta ishlash bozorida",
   "tonn": "{amount} t",
-  "recycledPlasticBottles": "plastik butilkalar qayta ishlandi"
+  "recycledPlasticBottles": "plastik butilkalar qayta ishlandi",
+  "aboutActivities": "Faoliyatimiz haqida",
+  "downloadPresentationGetFamiliar": "Taqdimotni yuklab oling va kompaniya faoliyati bilan tanishing",
+  "downloadPresentation": "Taqdimotni yuklab olish"
 }

@@ -1,5 +1,6 @@
 "use client";
 
+import AboutOurActivities from "./component/AboutOurActivities";
 import AboutUs from "./component/AboutUs";
 import Footer from "./component/Footer";
 import HeroSection from "./component/Hero";
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <Banner />
       <AboutUs />
+      <AboutOurActivities />
       <Footer />
     </div>
   );
