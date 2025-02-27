@@ -10,7 +10,7 @@ export default function HeaderNavigation() {
   return (
     <nav className="bg-primary rounded-2xl py-[15px] px-[52px] flex items-center gap-[70px]">
       <div className="py-[9px] pl-2.5 pr-[33px] bg-white rounded-full text-primary">
-        <LogoIcon />
+        <LogoIcon className="w-[165px] h-[35px] " />
       </div>
       <ul className="flex gap-10">
         <li className="text-base font-medium text-white">
