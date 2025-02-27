@@ -21,5 +21,17 @@
   "recycledPlasticBottles": "plastik butilkalar qayta ishlandi",
   "aboutActivities": "Faoliyatimiz haqida",
   "downloadPresentationGetFamiliar": "Taqdimotni yuklab oling va kompaniya faoliyati bilan tanishing",
-  "downloadPresentation": "Taqdimotni yuklab olish"
+  "downloadPresentation": "Taqdimotni yuklab olish",
+  "fromWaste": "Chiqindidan",
+  "toNewProducts": "yangi mahsulotlarga",
+  "fromWasteToNewProductsText1": "2024-yilning dastlabki olti oyida 5,2 mln tonna chiqindidan 270 ming tonnasi qayta ishlandi, bu umumiy hajmning 5,2% tashkil etadi.",
+  "fromWasteToNewProductsText2": "Bu raqamlar plastik chiqindilarni utilizatsiya qilish bo‘yicha jiddiy muammo mavjudligini ko‘rsatmoqda.",
+  "fromWasteToNewProductsText3": "O‘zbekistonda har kuni taxminan 27,9 ming tonna qattiq maishiy chiqindi hosil bo‘ladi, shundan taxminan 2,87 ming tonnasi plastikdir.<br />Ushbu chiqindilarning atigi 5,2 foizigacha bo‘lgan qismi qayta ishlanadi. Bu kuniga o‘rtacha 150 tonna plastik degani. Qolgan qismi (2,7 ming tonnadan ko‘prog‘i) chiqindi poligonlariga yuboriladi yoki yoqib yuboriladi.",
+  "whatWasteRecycledInto": "Plastik chiqindilar nimalarga qayta ishlanadi?",
+  "product1": "Plastik butilkalar",
+  "product2": "Qadoqlash plyonkasi",
+  "product3": "To‘qimachilik mahsulotlari",
+  "product4": "Shovqin izolyatsiya materiallari",
+  "product5": "Cho‘tka tuklari",
+  "product6": "Issiqlik izolyatsiyasi (sintepon)"
 }

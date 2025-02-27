@@ -116,6 +116,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  .font-outline-2 {
+    -webkit-text-stroke: 2px var(--primary);
+  }
 }
 
 @layer utilities {
