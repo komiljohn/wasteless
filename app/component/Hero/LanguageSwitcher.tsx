@@ -2,6 +2,7 @@ import { Globe } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 import React from "react";
+import { twMerge } from "tailwind-merge";
 
 import {
   DropdownMenu,
@@ -11,7 +12,11 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Locale } from "@/i18n/request";
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({
+  className,
+}: {
+  className?: string;
+}) {
   const locale = useLocale();
   const router = useRouter();
 
@@ -22,7 +27,12 @@ export default function LanguageSwitcher() {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className="flex gap-2 items-center">
+      <DropdownMenuTrigger
+        className={twMerge(
+          "flex gap-2 items-center max-md:text-foreground",
+          className,
+        )}
+      >
         <Globe size={20} />
         <span className="text-lg font-semibold">{locale}</span>
       </DropdownMenuTrigger>

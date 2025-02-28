@@ -7,16 +7,16 @@ export default function Download() {
   const t = useTranslations();
 
   return (
-    <section className="container mx-auto px-4 pb-[91px]">
-      <div className="px-[52px] pt-[52px] pb-[61px] bg-linear-[276.26deg,#79B669_-3%,#4A9C35_25.86%,#1F8505_98.69%] rounded-[20px]">
+    <section className="container mx-auto px-4 pb-[91px] max-sm:px-0 max-sm:pb-0">
+      <div className="px-[52px] max-sm:px-6 pt-[52px] max-sm:pt-6 pb-[61px] max-sm:pb-[30px] bg-linear-[276.26deg,#79B669_-3%,#4A9C35_25.86%,#1F8505_98.69%] rounded-[20px] max-sm:rounded-none">
         <div>
-          <p className="mb-5 text-[32px] leading-[37px] font-days-one max-w-[55%] text-white">
+          <p className="mb-5 text-[32px] leading-[37px] font-days-one max-w-[53%] max-lg:max-w-full text-white max-sm:text-xl max-sm:mb-3.5 max-sm:leading-[23px]">
             {t("chooseUs")}
           </p>
-          <p className="text-lg leading-[25px] text-white mb-9 max-w-1/2">
+          <p className="text-lg leading-[25px] text-white mb-9 max-w-1/2 max-lg:max-w-full max-sm:text-[15px] max-sm:leading-[21px] max-sm:mb-[62px]">
             {t("chooseUsSub")}
           </p>
-          <div className="flex gap-5">
+          <div className="flex gap-5 max-sm:gap-2">
             <Link href="#">
               <Image
                 src="/images/app-store.png"
@@ -37,7 +37,7 @@ export default function Download() {
             </Link>
           </div>
         </div>
-        <div className="relative">
+        <div className="relative max-lg:hidden">
           <Image
             src="/images/phone.png"
             width={200}

@@ -5,17 +5,15 @@ export default function YouTubeBlog() {
   const t = useTranslations();
 
   return (
-    <section className="container mx-auto px-4 mb-[90px]">
-      <p className="font-days-one mb-[54px] text-[40px] leading-[51px] text-primary text-center">
+    <section className="container mx-auto px-4 mb-[90px] max-sm:mb-10">
+      <p className="font-days-one mb-[54px] max-sm:mb-5 text-[40px] leading-[51px] text-primary text-center max-sm:text-xl max-sm:leading-[25px]">
         {t("youtubeBlog")}
       </p>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-4 gap-5 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1">
         {youtubeVideos.map((video) => (
           <iframe
             key={video.id}
-            className="rounded-[10px]"
-            width="300"
-            height="200"
+            className="rounded-[10px] mx-auto w-[300px] h-[200px]  max-sm:w-full"
             src={video.image}
             title={video.title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

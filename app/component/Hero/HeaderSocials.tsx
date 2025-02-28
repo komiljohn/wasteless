@@ -6,7 +6,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function HeaderSocials() {
   return (
-    <div className="py-4 px-[26px] flex items-center justify-between">
+    <div className="py-4 px-[26px] flex items-center justify-between max-md:hidden">
       <ul className="flex gap-[26px]">
         <li>
           <Image src="/icons/telegram.svg" alt="" width={20} height={20} />

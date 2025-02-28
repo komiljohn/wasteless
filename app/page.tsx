@@ -8,6 +8,7 @@ import Footer from "./component/Footer";
 import FromWasteToNewProducts from "./component/FromWasteToNewProducts";
 import HeroSection from "./component/Hero";
 import Banner from "./component/Hero/Banner";
+import HowWeWork from "./component/HowWeWork";
 import YouTubeBlog from "./component/YouTubeBlog";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <AboutUs />
       <AboutOurActivities />
       <FromWasteToNewProducts />
+      <HowWeWork />
       <YouTubeBlog />
       <ContactUs />
       <Download />

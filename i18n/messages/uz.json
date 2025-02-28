@@ -45,5 +45,8 @@
   "invalidEmail": "Iltimos, to‘g‘ri email kiriting",
   "required": "Iltimos, ushbu maydonnni to‘ldiring",
   "chooseUs": "O‘zbekistonning siklik iqtisodiyotini rivojlantirish uchun Wasteless’ni tanlang!",
-  "chooseUsSub": "Bizning asosiy maqsadimiz – qayta ishlanadigan chiqindilarni samarali yig‘ish va utilizatsiya qilish uchun IT-platforma yaratish orqali qayta ishlash ulushini maksimal darajaga yetkazish."
+  "chooseUsSub": "Bizning asosiy maqsadimiz – qayta ishlanadigan chiqindilarni samarali yig‘ish va utilizatsiya qilish uchun IT-platforma yaratish orqali qayta ishlash ulushini maksimal darajaga yetkazish.",
+  "howWeWork": "Biz qanday ishlaymiz?",
+  "order": "Buyurtma qilish",
+  "selfDeliver": "O‘zim olib kelaman"
 }

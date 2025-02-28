@@ -50,7 +50,7 @@ export default function FormTextInput({
                 rows={4}
                 placeholder={placeholder ? t(placeholder) : ""}
                 className={cn(
-                  "rounded-[20px] flex min-h-[80px] w-full border border-input bg-background px-6 py-6 text-[22px] leading-[27px] placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 resize-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] transition-[color,box-shadow] outline-none",
+                  "rounded-[20px] flex min-h-[80px] w-full border border-input bg-background px-6 py-6 text-[22px] leading-[27px] placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50 resize-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] transition-[color,box-shadow] outline-none max-sm:text-[15px] max-sm:leading-[18px] max-sm:py-[15px] max-sm:px-[15px] max-sm:rounded-[10px]",
                   className,
                 )}
                 {...field}
