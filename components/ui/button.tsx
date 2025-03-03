@@ -43,7 +43,7 @@ function Button({
   ...props
 }: React.ComponentProps<"button"> &
   VariantProps<typeof buttonVariants> & {
-    isloading?: boolean;
+    isloading?: number;
     asChild?: boolean;
   }) {
   const Comp = asChild ? Slot : "button";
@@ -52,10 +52,10 @@ function Button({
     <Comp
       className={cn(buttonVariants({ variant, size, className }))}
       ref={props.ref}
-      disabled={props.isloading}
+      disabled={!!props.isloading}
       {...props}
     >
-      {props.isloading && <Loader className="animate-spin" />}
+      {props.isloading ? <Loader className="animate-spin" /> : null}
       {props.children}
     </Comp>
   );

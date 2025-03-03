@@ -1,20 +1,23 @@
 import React, { ComponentPropsWithoutRef, CSSProperties } from "react";
 
+import useWindowSize from "@/hooks/useWindowSize";
 import { cn } from "@/lib/utils";
 
 interface RippleProps extends ComponentPropsWithoutRef<"div"> {
-  mainCircleSize?: number;
   mainCircleOpacity?: number;
   numCircles?: number;
 }
 
 export const Ripple = React.memo(function Ripple({
-  mainCircleSize = 210,
   mainCircleOpacity = 0.24,
   numCircles = 8,
   className,
   ...props
 }: RippleProps) {
+  const width = useWindowSize().width;
+
+  const mainCircleSize = width < 1280 ? 200 : 400;
+
   return (
     <div
       className={cn(

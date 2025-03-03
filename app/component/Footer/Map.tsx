@@ -18,10 +18,7 @@ export default function YandexMap() {
         height="304px"
         state={{ zoom: 14, center: [41.324742, 69.289054] }}
       >
-        <Placemark
-          geometry={[41.324742, 69.289054]}
-          options={{ draggable: true }}
-        />
+        <Placemark geometry={[41.324742, 69.289054]} />
         <TypeSelector />
         <ZoomControl />
         <FullscreenControl />

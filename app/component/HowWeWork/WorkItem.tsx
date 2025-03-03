@@ -34,8 +34,8 @@ export default function WorkItem({ order, text, image, isLast }: Props) {
           src={image}
           width={215}
           height={215}
-          alt="deliver man"
-          className="absolute -bottom-5 -right-[10px] max-lg:hidden max-xl:-right-7"
+          alt="work item"
+          className="absolute w-auto h-auto -bottom-5 -right-[10px] max-lg:hidden max-xl:-right-7"
         />
         {!isLast && (
           <Dots
