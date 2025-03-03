@@ -4,12 +4,26 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "standalone",
   webpack(config) {
     config.module.rules.push({
-      test: /\.js$|jsx/,
-      include: /src\/assets\/.*\.svg$/, // this allows icon.svg in app dir to work. All SVGs to be handled by SVGR are in src/assets
-      use: ["@svgr/webpack"],
+      loader: "@svgr/webpack",
+      options: {
+        prettier: false,
+        svgo: true,
+        svgoConfig: {
+          plugins: [
+            {
+              name: "preset-default",
+              params: {
+                overrides: { removeViewBox: false },
+              },
+            },
+          ],
+        },
+        titleProp: true,
+      },
+      test: /\.svg$/,
     });
 
     return config;
@@ -18,7 +32,26 @@ const nextConfig: NextConfig = {
     turbo: {
       rules: {
         "*.svg": {
-          loaders: ["@svgr/webpack"],
+          loaders: [
+            {
+              loader: "@svgr/webpack",
+              options: {
+                prettier: false,
+                svgo: true,
+                svgoConfig: {
+                  plugins: [
+                    {
+                      name: "preset-default",
+                      params: {
+                        overrides: { removeViewBox: false },
+                      },
+                    },
+                  ],
+                },
+                titleProp: true,
+              },
+            },
+          ],
           as: "*.js",
         },
       },
