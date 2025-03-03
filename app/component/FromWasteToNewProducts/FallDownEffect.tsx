@@ -24,7 +24,7 @@ export default function FallDownEffect({
           duration: 0.8,
         },
       }}
-      viewport={{ amount: 0, margin: "0px 0px -50px 0px" }}
+      viewport={{ once: true, amount: 0, margin: "0px 0px -50px 0px" }}
       className={className}
     >
       {children}

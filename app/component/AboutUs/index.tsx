@@ -17,6 +17,7 @@ export default function AboutUs() {
               fill
               sizes="auto"
               src="/images/round-map-bg.png"
+              priority
               alt="phone"
               className="max-h-[590px]"
             />

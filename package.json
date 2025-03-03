@@ -22,7 +22,7 @@
     "framer-motion": "^12.4.7",
     "lucide-react": "^0.476.0",
     "motion": "^12.4.7",
-    "next": "15.2.0-canary.76",
+    "next": "15.2.0",
     "next-intl": "^3.26.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
