@@ -60,7 +60,7 @@ export default function ContactUs() {
                 isloading={isPending ? 1 : 0}
                 className="font-days-one bg-white text-foreground text-2xl h-[66px] leading-[31px] w-[370px] py-[16px] rounded-full hover:bg-white mx-auto max-sm:text-base max-sm:leading-[20px] max-sm:h-12 max-sm:w-4/5"
               >
-                Yuborish
+                {t("send")}
               </Button>
             </div>
           </form>

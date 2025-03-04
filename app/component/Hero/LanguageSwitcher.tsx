@@ -29,7 +29,7 @@ export default function LanguageSwitcher({
     <DropdownMenu>
       <DropdownMenuTrigger
         className={twMerge(
-          "flex gap-2 items-center max-md:text-foreground",
+          "flex gap-2 items-center max-md:text-foreground shadow-none border-none",
           className,
         )}
       >

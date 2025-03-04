@@ -22,13 +22,12 @@ export default function Banner() {
         <FadeInWhenVisible delay={0.3}>
           <p className="mb-9 text-[22px] text-primary max-w-[460px] max-sm:mb-8 max-sm:text-base">
             <span className="font-bold">Wasteless </span>
-            qayta ishlanadigan chiqindilarni topshirishi kerak bo‘lgan
-            kompaniyalarni qayta ishlovchi kompaniyalar bilan bog‘laydi.
+            {t("description")}
           </p>
         </FadeInWhenVisible>
         <FadeInWhenVisible delay={0.4}>
           <Button className="flex gap-6 py-6 !px-[44px] rounded-full text-2xl font-days-one max-sm:py-3.5 max-sm:h-12 max-sm:text-base">
-            Biz bilan bog'lanish
+            {t("contactWithUs")}
             <MoveRight />
           </Button>
         </FadeInWhenVisible>

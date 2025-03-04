@@ -29,7 +29,7 @@ export default function AboutUs() {
       </OpacityWhenVisible>
       <div className="max-w-[630px] max-xl:max-w-[520px]">
         <FadeInWhenVisible delay={0.4}>
-          <p className="text-2xl max-xl:text-xl mb-4">
+          <p className="text-2xl max-xl:text-xl max-sm:text-lg mb-4">
             <span className="font-days-one text-primary">Wasteless — </span>
             <span>{t("aboutUsText")}</span>
           </p>
