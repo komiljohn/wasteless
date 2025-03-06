@@ -7,18 +7,20 @@ import {
   YMaps,
   ZoomControl,
 } from "@pbe/react-yandex-maps";
-import React from "react";
+import React, { useState } from "react";
 
 export default function YandexMap() {
+  const [coords] = useState([41.324742, 69.289054]);
+
   return (
     <YMaps>
       <Map
         className="bg-white"
         width="463px"
         height="304px"
-        state={{ zoom: 14, center: [41.324742, 69.289054] }}
+        state={{ zoom: 14, center: coords }}
       >
-        <Placemark geometry={[41.324742, 69.289054]} />
+        <Placemark geometry={coords} />
         <TypeSelector />
         <ZoomControl />
         <FullscreenControl />

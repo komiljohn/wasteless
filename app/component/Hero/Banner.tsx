@@ -36,7 +36,7 @@ export default function Banner() {
         <div className="absolute -right-[120px] flex h-[848px] w-[848px] max-xl:h-[648px] max-xl:w-[648px] flex-col items-center justify-center overflow-hidden z-10 max-lg:hidden max-xl:top-8">
           <div className="size-[460px] rounded-[175px] max-xl:rounded-[99px] absolute top-[139px] right-[249px] max-xl:-top-[37px] max-xl:right-[225px] overflow-hidden">
             <div className="absolute size-[350px] max-xl:size-[198px] rounded-full -bottom-0 right-0 bg-[#79B669]"></div>
-            <div className="animate-bottle-drop pl-[100px] absolute bottom-[15px] max-xl:top-[182px] right-[15px] max-xl:right-[10px] max-h-[452px] w-[452px] h-[452px] max-xl:w-[280px] max-xl:h-[280px] -mr-12 -mb-5">
+            <div className="animate-bottle-drop pl-[100px] absolute bottom-[15px] right-[15px] max-xl:right-[15px] max-h-[452px] w-[452px] h-[452px] max-xl:w-[280px] max-xl:h-[280px] -mr-12 -mb-5">
               <Image
                 priority
                 fill
