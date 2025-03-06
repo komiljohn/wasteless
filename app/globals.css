@@ -140,12 +140,10 @@
       bottom: -35px;
       right: -35px;
     }
-    1% {
-      opacity: 1;
-    }
     30% {
       bottom: 15px;
       right: 15px;
+      opacity: 1;
     }
     50% {
       bottom: -15px;
@@ -170,7 +168,7 @@
     animation: ripple var(--duration, 2s) ease calc(var(--i, 0) * 0.2s) infinite;
   }
   .animate-bottle-drop {
-    animation: bottle-drop var(--duration, 1s) ease-in-out 1s;
+    animation: bottle-drop var(--duration, 1.2s) ease-in-out 1s;
     bottom: -35px;
     right: -35px;
     opacity: 0;
