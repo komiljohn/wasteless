@@ -140,6 +140,9 @@
       bottom: -35px;
       right: -35px;
     }
+    1% {
+      opacity: 1;
+    }
     30% {
       bottom: 15px;
       right: 15px;
@@ -170,6 +173,7 @@
     animation: bottle-drop var(--duration, 1s) ease-in-out 1s;
     bottom: -35px;
     right: -35px;
+    opacity: 0;
     animation-fill-mode: forwards;
   }
   .bg-gradient {
