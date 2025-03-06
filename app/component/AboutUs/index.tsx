@@ -9,7 +9,10 @@ export default function AboutUs() {
   const t = useTranslations();
 
   return (
-    <div className="container mx-auto px-4 flex justify-between items-center mt-[220px] max-xl:mt-40 pb-[71px] max-lg:flex-col max-lg:gap-10 max-md:mt-20">
+    <section
+      id="project"
+      className="container mx-auto px-4 flex justify-between items-center mt-[180px] pt-10 max-xl:mt-6 max-xl:pt-4 pb-[71px] max-lg:flex-col max-lg:gap-10 max-md:mt-20"
+    >
       <OpacityWhenVisible delay={0.3}>
         <div className="relative">
           <div className="relative w-[603px] h-[590px] max-xl:w-[450px] max-xl:h-[460px] max-sm:w-[343px] max-sm:h-[335px]">
@@ -29,13 +32,18 @@ export default function AboutUs() {
       </OpacityWhenVisible>
       <div className="max-w-[630px] max-xl:max-w-[520px]">
         <FadeInWhenVisible delay={0.4}>
-          <p className="text-2xl max-xl:text-xl max-sm:text-lg mb-4">
+          <p className="text-2xl max-xl:text-xl max-sm:text-lg mb-6">
             <span className="font-days-one text-primary">Wasteless — </span>
             <span>{t("aboutUsText")}</span>
           </p>
         </FadeInWhenVisible>
         <FadeInWhenVisible delay={0.5}>
-          <ul className="text-2xl max-xl:text-xl max-sm:text-lg">
+          <p className="text-2xl max-xl:text-xl max-sm:text-lg mb-1">
+            {t("whatWeDo")}
+          </p>
+        </FadeInWhenVisible>
+        <FadeInWhenVisible delay={0.5}>
+          <ul className="text-2xl max-xl:text-xl max-sm:text-lg list-disc pl-7">
             <li>{t("aboutUs1")}</li>
             <li>{t("aboutUs2")}</li>
             <li>{t("aboutUs3")}</li>
@@ -71,6 +79,6 @@ export default function AboutUs() {
           </OpacityWhenVisible>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

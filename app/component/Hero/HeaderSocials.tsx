@@ -1,5 +1,6 @@
 import { Phone } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 import OpacityWhenVisible from "@/components/animation/OpacityWhenVisible";
@@ -12,13 +13,22 @@ export default function HeaderSocials() {
       <div className="py-4 px-[26px] flex items-center justify-between max-md:hidden">
         <ul className="flex gap-[26px]">
           <li>
-            <Image src="/icons/telegram.svg" alt="" width={20} height={20} />
+            <Link href="https://t.me/wastelessuz" target="_blank">
+              <Image src="/icons/telegram.svg" alt="" width={20} height={20} />
+            </Link>
           </li>
           <li>
-            <Image src="/icons/instagram.svg" alt="" width={20} height={20} />
+            <Link
+              href="https://www.instagram.com/wasteless_uz/"
+              target="_blank"
+            >
+              <Image src="/icons/instagram.svg" alt="" width={20} height={20} />
+            </Link>
           </li>
           <li>
-            <Image src="/icons/youtube.svg" alt="" width={20} height={20} />
+            <Link href="https://www.youtube.com/@gowasteless" target="_blank">
+              <Image src="/icons/youtube.svg" alt="" width={20} height={20} />
+            </Link>
           </li>
         </ul>
         <div className="flex">

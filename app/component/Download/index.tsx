@@ -17,7 +17,10 @@ export default function Download() {
             {t("chooseUsSub")}
           </p>
           <div className="flex gap-5 max-sm:gap-2">
-            <Link href="#">
+            <Link
+              href="https://apps.apple.com/uz/app/wasteless/id1627336886"
+              target="_blank"
+            >
               <Image
                 src="/images/app-store.png"
                 width={162}
@@ -26,7 +29,10 @@ export default function Download() {
                 className="rounded-md"
               />
             </Link>
-            <Link href="#">
+            <Link
+              href="https://play.google.com/store/apps/details?id=uz.calypso.wasteless"
+              target="_blank"
+            >
               <Image
                 src="/images/google-play.png"
                 width={162}

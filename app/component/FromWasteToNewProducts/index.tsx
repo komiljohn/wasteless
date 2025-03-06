@@ -91,7 +91,11 @@ export default function FromWasteToNewProducts() {
             delay={0.2}
             className="h-fit font-semibold px-[33px] bg-primary text-white rounded-[40px] rounded-bl-none py-[30px] text-[22px] leading-[26px] max-xl:px-[24px] max-xl:text-xl max-xl:leading-[24px] max-w-[452px] max-xl:max-w-[380px] max-sm:py-[30px] max-sm:px-2 max-sm:text-base max-sm:leading-[20px]"
           >
-            {t("fromWasteToNewProductsText3")}
+            <span
+              dangerouslySetInnerHTML={{
+                __html: t("fromWasteToNewProductsText3"),
+              }}
+            />
           </FadeInWhenVisible>
         </div>
       </div>

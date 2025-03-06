@@ -16,7 +16,7 @@ export const Ripple = React.memo(function Ripple({
 }: RippleProps) {
   const width = useWindowSize().width;
 
-  const mainCircleSize = width < 1280 ? 200 : 400;
+  const mainCircleSize = width < 1280 ? 222 : 390;
 
   return (
     <div
@@ -36,7 +36,7 @@ export const Ripple = React.memo(function Ripple({
         return (
           <div
             key={i}
-            className={`[--i: absolute animate-ripple rounded-full border bg-primary/30 shadow-xl${i}]`}
+            className={`[--i: absolute rounded-full border bg-primary/30 shadow-xl${i}]`}
             style={
               {
                 width: `${size}px`,

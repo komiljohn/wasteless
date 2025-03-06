@@ -33,7 +33,10 @@ export default function ContactUs() {
   };
 
   return (
-    <section className="container mx-auto px-4 mb-[94px] max-sm:mb-10 max-sm:px-0">
+    <section
+      id="contact"
+      className="container mx-auto px-4 mb-[94px] max-sm:mb-10 max-sm:px-0 pt-[90px] max-sm:pt-10"
+    >
       <div className="px-[58px] py-10 rounded-[20px] bg-primary max-sm:px-6 max-sm:rounded-none">
         <p className="font-days-one mb-3 text-[40px] leading-[51px] text-center text-white max-sm:text-xl max-sm:leading-[20px]">
           {t("contactWithUs")}

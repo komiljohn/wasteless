@@ -25,19 +25,19 @@ export default function Footer() {
         </div>
         <ul className="flex flex-col gap-5 max-sm:gap-[13px] max-sm:text-center">
           <li className="font-medium max-sm:font-normal max-sm:text-sm">
-            <Link href={"#"}>{t("project")}</Link>
+            <Link href="#project">{t("project")}</Link>
           </li>
           <li className="font-medium max-sm:font-normal max-sm:text-sm">
-            <Link href={"#"}>{t("aboutUs")}</Link>
+            <Link href="#activities">{t("aboutUs")}</Link>
           </li>
           <li className="font-medium max-sm:font-normal max-sm:text-sm">
-            <Link href={"#"}>{t("workingRegime")}</Link>
+            <Link href="#howWeWork">{t("workingRegime")}</Link>
           </li>
           <li className="font-medium max-sm:font-normal max-sm:text-sm">
-            <Link href={"#"}>{t("ecoBlog")}</Link>
+            <Link href="#ecoBlog">{t("ecoBlog")}</Link>
           </li>
           <li className="font-medium max-sm:font-normal max-sm:text-sm">
-            <Link href={"#"}>{t("contact")}</Link>
+            <Link href="#contact">{t("contact")}</Link>
           </li>
         </ul>
         <div className="mx-auto sm:hidden">

@@ -25,7 +25,7 @@
   "toNewProducts": "yangi mahsulotlarga",
   "fromWasteToNewProductsText1": "2024-yilning dastlabki olti oyida 5,2 mln tonna chiqindidan 270 ming tonnasi qayta ishlandi, bu umumiy hajmning 5,2% tashkil etadi.",
   "fromWasteToNewProductsText2": "Bu raqamlar plastik chiqindilarni utilizatsiya qilish bo‘yicha jiddiy muammo mavjudligini ko‘rsatmoqda.",
-  "fromWasteToNewProductsText3": "O‘zbekistonda har kuni taxminan 27,9 ming tonna qattiq maishiy chiqindi hosil bo‘ladi, shundan taxminan 2,87 ming tonnasi plastikdir.<br />Ushbu chiqindilarning atigi 5,2 foizigacha bo‘lgan qismi qayta ishlanadi. Bu kuniga o‘rtacha 150 tonna plastik degani. Qolgan qismi (2,7 ming tonnadan ko‘prog‘i) chiqindi poligonlariga yuboriladi yoki yoqib yuboriladi.",
+  "fromWasteToNewProductsText3": "O‘zbekistonda har kuni taxminan 27,9 ming tonna qattiq maishiy chiqindi hosil bo‘ladi, shundan taxminan 2,87 ming tonnasi plastikdir.<br /><br/>Ushbu chiqindilarning atigi 5,2 foizigacha bo‘lgan qismi qayta ishlanadi. Bu kuniga o‘rtacha 150 tonna plastik degani. Qolgan qismi (2,7 ming tonnadan ko‘prog‘i) chiqindi poligonlariga yuboriladi yoki yoqib yuboriladi.",
   "whatWasteRecycledInto": "Plastik chiqindilar nimalarga qayta ishlanadi?",
   "product1": "Plastik butilkalar",
   "product2": "Qadoqlash plyonkasi",
@@ -48,5 +48,16 @@
   "howWeWork": "Biz qanday ishlaymiz?",
   "order": "Buyurtma qilish",
   "selfDeliver": "O‘zim olib kelaman",
-  "send": "Yuborish"
+  "send": "Yuborish",
+  "howWeWork1": "Siz plastik chiqindilarni saralaysiz",
+  "howWeWork2": "Arizani ilova orqali yuborasiz",
+  "howWeWork3": "Belgilangan vaqtda kuryer yetib keladi",
+  "howWeWork4": "Kuryer chiqindilarni qayta ishlash uchun olib ketadi va arizani yopadi",
+  "howWeWork5": "Ilova orqali qabul qilish punktini topasiz",
+  "howWeWork6": "Chiqindilarni punktga olib kelib, qayta ishlash uchun topshirasiz",
+  "howWeWork7": "Siz qo‘shimcha daromad olasiz, chiqindilar esa yangi hayotga ega bo‘ladi!",
+  "youtube1": "Plastik bilan nima sodir bo‘lmoqda?",
+  "youtube2": "Plastikdan Yer qanday qutqariladi?",
+  "youtube3": "Inson sayyorani qanday o‘ldiradi?",
+  "youtube4": "Butilkani qayta ishlashga qanday to‘g‘ri topshirish kerak?"
 }

@@ -34,7 +34,9 @@ export default function LanguageSwitcher({
         )}
       >
         <Globe size={20} />
-        <span className="text-lg font-semibold">{locale}</span>
+        <span className="text-lg font-semibold">
+          {locale.charAt(0).toUpperCase() + locale.slice(1)}
+        </span>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuItem id="uz" onSelect={() => handleLocaleChange("uz")}>

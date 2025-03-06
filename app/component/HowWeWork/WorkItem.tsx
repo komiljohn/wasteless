@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import React from "react";
 import { twMerge } from "tailwind-merge";
 
@@ -16,6 +17,8 @@ interface Props {
 export default function WorkItem({ order, text, image, isLast }: Props) {
   const isEven = order % 2 === 0;
 
+  const t = useTranslations();
+
   return (
     <>
       <div
@@ -28,7 +31,7 @@ export default function WorkItem({ order, text, image, isLast }: Props) {
           {order}
         </div>
         <p className="text-white font-days-one text-xl max-lg:text-base max-xl:text-base max-xl:leading-[20px] leading-[25px] w-[68%] max-lg:w-full max-lg:text-center">
-          {text}
+          {t(text)}
         </p>
         <Image
           src={image}

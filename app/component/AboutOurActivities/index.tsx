@@ -6,7 +6,10 @@ export default function AboutOurActivities() {
   const t = useTranslations();
 
   return (
-    <div className="bg-[url(/images/about-activities-bg.png)] backdrop-opacity-25 bg-center bg-cover bg-no-repeat pt-[54px] max-sm:pt-[46px] pb-[84px] max-sm:pb-12 text-center relative">
+    <section
+      id="activities"
+      className="bg-[url(/images/about-activities-bg.png)] backdrop-opacity-25 bg-center bg-cover bg-no-repeat pt-[54px] max-sm:pt-[46px] pb-[84px] max-sm:pb-12 text-center relative"
+    >
       <div className="bg-gradient absolute top-0 left-0 h-full w-full" />
       <div className="relative">
         <p className="text-[40px] leading-[51px] max-sm:text-xl max-sm:leading-[25px] max-sm:mb-2.5 text-white font-days-one mb-4">
@@ -23,6 +26,6 @@ export default function AboutOurActivities() {
           {t("downloadPresentation")}
         </Link>
       </div>
-    </div>
+    </section>
   );
 }

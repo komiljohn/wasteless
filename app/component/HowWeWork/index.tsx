@@ -12,7 +12,10 @@ export default function HowWeWork() {
   const [activeTabId, setActiveTabId] = useState(1);
 
   return (
-    <section className="bg-primary pt-[50px] max-sm:pt-[30px] pb-[160px] max-lg:pb-[38px] mb-[90px] max-sm:mb-[30px] relative">
+    <section
+      id="howWeWork"
+      className="bg-primary pt-[50px] max-sm:pt-[30px] pb-[160px] max-lg:pb-[38px] relative"
+    >
       <div className="container mx-auto px-4">
         <p className="font-days-one text-[40px] leading-[51px] text-white mb-6 relative w-fit mx-auto max-sm:text-xl max-sm:leading-[25px] max-lg:mb-4">
           <Image
@@ -76,49 +79,49 @@ export default function HowWeWork() {
 const workItems = [
   {
     id: 1,
-    text: "Siz plastik chiqindilarni saralaysiz",
+    text: "howWeWork1",
     image: "/images/bin.png",
     tabId: 1,
   },
   {
     id: 2,
-    text: "Arizani ilova orqali yuborasiz",
+    text: "howWeWork2",
     image: "/images/phones.png",
     tabId: 1,
   },
   {
     id: 3,
-    text: "Belgilangan vaqtda kuryer yetib keladi",
+    text: "howWeWork3",
     image: "/images/deliver-man.png",
     tabId: 1,
   },
   {
     id: 4,
-    text: "Kuryer chiqindilarni qayta ishlash uchun olib ketadi va arizani yopadi",
+    text: "howWeWork4",
     image: "/images/check.png",
     tabId: 1,
   },
   {
     id: 5,
-    text: "Plastik chiqindilarni saralaysiz",
+    text: "howWeWork1",
     image: "/images/bin.png",
     tabId: 2,
   },
   {
     id: 6,
-    text: "Ilova orqali qabul qilish punktini topasiz",
+    text: "howWeWork5",
     image: "/images/location.png",
     tabId: 2,
   },
   {
     id: 7,
-    text: "Chiqindilarni punktga olib kelib, qayta ishlash uchun topshirasiz",
+    text: "howWeWork6",
     image: "/images/recycle.png",
     tabId: 2,
   },
   {
     id: 8,
-    text: "Siz qo‘shimcha daromad olasiz, chiqindilar esa yangi hayotga ega bo‘ladi!",
+    text: "howWeWork7",
     image: "/images/money.png",
     tabId: 2,
   },

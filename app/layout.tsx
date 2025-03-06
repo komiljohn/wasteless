@@ -1,7 +1,8 @@
 import "./globals.css";
 
 import type { Metadata } from "next";
-import { Days_One, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 
@@ -10,10 +11,9 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
-const daysOne = Days_One({
-  weight: "400",
+const daysOne = localFont({
+  src: "./fonts/DaysOne-Regular.ttf",
   variable: "--font-days-one",
-  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -30,8 +30,10 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className={`${inter.variable}  ${daysOne.variable} antialiased`}>
+    <html lang={locale} suppressHydrationWarning className="scroll-smooth">
+      <body
+        className={`${inter.variable}  ${daysOne.variable} antialiased overflow-x-hidden`}
+      >
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
