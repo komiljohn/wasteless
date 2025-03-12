@@ -1,9 +1,28 @@
-import Link from "next/link";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import React from "react";
+
+import { Button } from "@/components/ui/button";
+import { Locale } from "@/i18n/request";
+
+const fileNames = {
+  uz: "Wasteless+uzb.pdf",
+  en: "Wasteless+eng.pdf",
+  ru: "Wasteless+rus.pdf",
+};
 
 export default function AboutOurActivities() {
   const t = useTranslations();
+
+  const locale = useLocale();
+
+  const handleDownload = () => {
+    const url = `${process.env.NEXT_PUBLIC_AWS_S3_STORAGE_URL}${fileNames[locale as Locale]}`;
+    const link = document.createElement("a");
+    link.target = "_blank";
+    link.href = url;
+    link.download = "preferred-filename.file-extension";
+    link.click();
+  };
 
   return (
     <section
@@ -18,13 +37,12 @@ export default function AboutOurActivities() {
         <p className="text-[22px] leading-[27px] max-sm:text-[15px] max-sm:leading-[18px] max-sm:mb-[18px] text-white font-medium mb-[35px] max-sm:w-4/5 max-sm:mx-auto">
           {t("downloadPresentationGetFamiliar")}
         </p>
-        <Link
-          target="_blank"
-          href="/files/AboutUs.pdf"
-          className="inline-block h-[81px] text-[20px] max-sm:text-base max-sm:h-12 leading-[24px] max-sm:leading-[20px] font-medium text-primary px-6 py-7 max-sm:py-3.5 max-sm:px-[35px] font-days-one rounded-[20px] bg-white"
+        <Button
+          onClick={handleDownload}
+          className="hover:bg-white inline-block h-[81px] text-[20px] max-sm:text-base max-sm:h-12 leading-[24px] max-sm:leading-[20px] font-medium text-primary px-6 py-7 max-sm:py-3.5 max-sm:px-[35px] font-days-one rounded-[20px] bg-white"
         >
           {t("downloadPresentation")}
-        </Link>
+        </Button>
       </div>
     </section>
   );
